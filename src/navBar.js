@@ -19,7 +19,7 @@ function NavBar () {
                     className = "Portfolio">Portfolio</button>
                 <button onClick = {() => redirectMe('https://www.youtube.com/channel/UCn9Ir-KFtIWSntk6RzGE1-A')}
                     className = "Youtube"> <img src = {YoutubeIcon}/></button>
-                <button onClick = {() => redirectMe('https://tks.life/profile/evan.lin#about')}
+                <button onClick = {() => redirectMe('https://evxxan.medium.com/')}
                     className = "Medium"> <img src = {MediumIcon}/></button>
                 <button onClick = {() => redirectMe('https://www.linkedin.com/in/evan-lin-0b764b1a3/')}
                     className = "Linkedin"> <img src = {LinkedinIcon}/></button>

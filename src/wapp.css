@@ -24,8 +24,27 @@ body {
     letter-spacing: 0.180645px;
 }
 
-.wave {
+
+.Wave {
+    position: absolute;
     height: 50px;
+    top: 205px;
+    left: 1215px;
+    animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
+    animation-duration: 2.5s;        /* Change to speed up or slow down */
+    animation-iteration-count: infinite;  /* Never stop waving :) */
+    transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+}
+
+@keyframes wave-animation {
+    0% { transform: rotate( 0.0deg) }
+   10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+   20% { transform: rotate(-8.0deg) }
+   30% { transform: rotate(14.0deg) }
+   40% { transform: rotate(-4.0deg) }
+   50% { transform: rotate(10.0deg) }
+   60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+  100% { transform: rotate( 0.0deg) }
 }
 
 .self {
@@ -43,14 +62,6 @@ body {
     top: 123px;
 }
 
-.circle {
-    position: absolute;
-    width: 136px;
-    height: 136px;
-    left: 520px;
-    top: 123px; 
-    z-index: -1;
-}
 
 .subtext1 {
     position: absolute;
@@ -264,5 +275,57 @@ body {
     z-index: 1;
     
 }
+
+
+.Circle {
+    position: absolute;
+    width: 136px;
+    height: 136px;
+    left: 520px;
+    top: 123px;
+    
+    background: #F6E8B4;
+    box-shadow: -10px -10px 30px #FFFFFF, 10px 10px 30px rgba(145, 145, 145, 0.4);
+    border-radius: 75px;
+    z-index: -1;
+
+    animation-name: floating; 
+    animation-duration: 6s; 
+    animation-iteration-count: infinite; 
+    animation-timing-function: ease-in-out; 
+    
+}
+
+@keyframes floating { 
+    0% { transform: translate(0,  0px); } 
+    50%  { transform: translate(0, 30px); } 
+    100%   { transform: translate(0, -0px); }     
+} 
+
+
+.NewsletterButton {
+    position: absolute;
+    width: 244px;
+    height: 54.31px;
+    left: 1480px;
+    top: 29px;
+    
+    background: linear-gradient(0deg, #E5E5E5, #E5E5E5);
+    box-shadow: -4.5386px -4.5386px 13.6158px #FFFFFF, 4.5386px 4.5386px 13.6158px rgba(174, 174, 192, 0.4);
+    border-radius: 52.691px;
+    border: none;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 17.8339px;
+    line-height: 21px;
+    color: #25282B;
+    
+
+    letter-spacing: 0.090772px;
+}
+
+
 
 /* change pixel values to percentages */

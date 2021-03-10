@@ -1,4 +1,3 @@
-import wave from './img/wave.png'
 
 function Alltext() {
     return (
@@ -7,7 +6,6 @@ function Alltext() {
             <text>
             Hey! I’m Evan. Welcome <br/>to my website! 
             </text>
-            <img className = "wave" src={wave} alt="Logo" />
         </div>
 
         <div className = "subtext1">
