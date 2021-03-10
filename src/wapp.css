@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+body {
+    background-color: #E5E5E5;
+    color: #25282B;
+
+
+}
+
+.Header {
+    position: absolute;
+    width: 566px;
+    height: 135px;
+    left: 880px;
+    top: 140px;
+    
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 63px;
+    
+    letter-spacing: 0.180645px;
+}
+
+.wave {
+    height: 50px;
+}
+
+.self {
+    left: 2.64%;
+    right: 93.11%;
+    top: 2.83%;
+    bottom: 87.94%;
+}
+
+.me {
+    position: absolute;
+    width: 363px;
+    height: 363px;
+    left: 475px;
+    top: 123px;
+}
+
+.circle {
+    position: absolute;
+    width: 136px;
+    height: 136px;
+    left: 520px;
+    top: 123px; 
+    z-index: -1;
+}
+
+.subtext1 {
+    position: absolute;
+    width: 511.23px;
+    height: 74.06px;
+    left: 891px;
+    top: 290px;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16.2581px;
+    line-height: 26px;
+ 
+}
+
+.Header2 {
+    position: absolute;
+    width: 317px;
+    height: 30px;
+    left: 891px;
+    top: 380px;
+    
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 63px;
+    /* or 262% */
+    
+    letter-spacing: 0.180645px;
+}
+
+.subtext2 {
+    position: absolute;
+    width: 533px;
+    height: 28px;
+    left: 891px;
+    top: 440px;
+    
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16.2581px;
+    line-height: 26px;
+
+}
+
+.Icon {
+    left: 100px;
+}
+
+.NavBar {
+    position: absolute;
+    width: 1201px;
+    height: 133px;
+    left: 419px;
+    top: 486px;
+
+    background: #E5E5E5;
+    box-shadow: 5.59885px 5.59885px 16.7965px rgba(174, 174, 192, 0.4);
+    border-radius: 65px;
+}
+
+.pastExp {
+    position: absolute;
+    width: 388px;
+    height: 167px;
+    left: 568px;
+    top: 747px;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+
+    letter-spacing: 0.2px;
+}
+
+.currentExp {
+    position: absolute;
+    width: 343px;
+    height: 205px;
+    left: 1084px;
+    top: 752px;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 43px;
+
+    letter-spacing: 0.2px;
+
+}
+
+.Header3 {
+    position: absolute;
+    width: 156px;
+    height: 41px;
+    left: 610px;
+    top: 677px;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 63px;
+
+    letter-spacing: 0.2px;
+}
+
+.Header4 {
+    position: absolute;
+    width: 351px;
+    height: 82px;
+    left: 1085px;
+    top: 677px;
+    
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 63px;
+
+    
+    letter-spacing: 0.2px;
+}
+
+.Portfolio {
+    position: absolute;
+    width: 388px;
+    height: 86.78px;
+    left: 50px;
+    top: 25px;
+    
+    background: #E5E5E5;
+    box-shadow: -5.59885px -5.59885px 16px #FFFFFF, 5.59885px 5.59885px 16.7965px rgba(174, 174, 192, 0.4);
+    border-radius: 65px;
+    border: none;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 35.8326px;
+    line-height: 26px;
+    letter-spacing: 0.111977px;
+    color:#25282B;
+
+
+}
+
+.Youtube {
+    position: absolute;
+    height: 86.78px;
+    width: 86.78px;
+    left: 475px;
+    top: 25px;
+    
+    background: #E5E5E5;
+    box-shadow: -3.70833px -3.70833px 11.125px #FFFFFF, 5.5625px 5.5625px 11.125px rgba(174, 174, 192, 0.4);
+    border-radius: 18.5417px;
+    border: none;
+}
+
+.Medium {
+    position: absolute;
+    height: 86.78px;
+    width: 86.78px;
+    left: 600px;
+    top: 25px;
+    
+    background: #E5E5E5;
+    box-shadow: -3.70833px -3.70833px 11.125px #FFFFFF, 5.5625px 5.5625px 11.125px rgba(174, 174, 192, 0.4);
+    border-radius: 18.5417px;
+    border: none;  
+}
+
+.Linkedin {
+    position: absolute;
+    height: 86.78px;
+    width: 86.78px;
+    left: 725px;
+    top: 25px;
+    
+    background: #E5E5E5;
+    box-shadow: -3.70833px -3.70833px 11.125px #FFFFFF, 5.5625px 5.5625px 11.125px rgba(174, 174, 192, 0.4);
+    border-radius: 18.5417px;
+    border: none;  
+}
+
+.Github {
+    position: absolute;
+    height: 86.78px;
+    width: 86.78px;
+    left: 850px;
+    top: 25px;
+    
+    background: #E5E5E5;
+    box-shadow: -3.70833px -3.70833px 11.125px #FFFFFF, 5.5625px 5.5625px 11.125px rgba(174, 174, 192, 0.4);
+    border-radius: 18.5417px;
+    border: none;  
+}
+
+.Pointer {
+    position: absolute;
+    width: 125px;
+    left: 1400px;
+    top: 525px;
+    z-index: 1;
+    
+}
+
+/* change pixel values to percentages */
