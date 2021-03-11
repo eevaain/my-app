@@ -329,3 +329,34 @@ body {
 
 
 /* change pixel values to percentages */
+
+* Mobile layout */
+
+@media only screen and (max-width: 767px) {
+    .Header {left: -20%; font-size: 18px; line-height: 30px;
+                top: 18%; text-align: right;}
+    .NavBar {left:10%; width: 400px; height: 355px; }
+    .pastExp {left: 10%; top: 97%;}
+    .currentExp {left: 18%;
+                 top: 130%;}
+    .Header3 {left:18%; top: 92%;}
+    .Header4 {left: 18%;
+              top: 124%;}
+    .subtext1 {left:18%; top: 82%; }
+    .Header2 {left: 18%; top:72%;}
+    .subtext2 {left: 18%; top: 77%;}
+
+
+    .me {top: 19.5%; left:25%; width: 250px; height: 250px;}
+
+
+    .Circle {left: 22%}
+    .Wave {left: 65%; top: 20.7%; width: 25px; height: 25px;}
+    .NewsletterButton {left: 65%; width: 150px; height: 40px; font-size: 11px;}
+    .Portfolio {width: 300px;}
+    .Youtube {left: 53px; top: 39%;}
+    .Medium {left: 260px; top: 39%;}
+    .Linkedin {left: 53px; top: 69%;}
+    .Github {left: 260px; top: 69%;}
+
+}
