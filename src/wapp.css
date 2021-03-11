@@ -330,7 +330,7 @@ body {
 
 /* change pixel values to percentages */
 
-* Mobile layout */
+
 
 @media only screen and (max-width: 767px) {
     .Header {left: -20%; font-size: 18px; line-height: 30px;
