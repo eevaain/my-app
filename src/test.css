@@ -4,8 +4,6 @@
 body {
     background-color: #E5E5E5;
     color: #25282B;
-
-
 }
 
 .Header {
@@ -43,53 +41,40 @@ body {
 }
 
 .self {
-
 }
 
 .me {
 
     width: 363px;
     height: 363px;
-
 }
 
 
 .subtext1 {
 
     width: 511.23px;
-    height: 74.06px;
-
-
     font-family: Lato;
     font-style: normal;
     font-weight: normal;
     font-size: 16.2581px;
     line-height: 26px;
- 
 }
 
+.Header1,
 .Header2 {
 
     width: 317px;
-    height: 30px;
-
-    
     font-family: Lato;
     font-style: normal;
     font-weight: 900;
     font-size: 24px;
     line-height: 63px;
-    /* or 262% */
     
     letter-spacing: 0.180645px;
 }
 
 .subtext2 {
-    position: absolute;
     width: 533px;
-    height: 28px;
-
-    
     font-family: Lato;
     font-style: normal;
     font-weight: normal;
@@ -103,22 +88,24 @@ body {
 }
 
 .NavBar {
-    position: absolute;
     width: 1201px;
     height: 133px;
-
-
     background: #E5E5E5;
     box-shadow: 5.59885px 5.59885px 16.7965px rgba(174, 174, 192, 0.4);
     border-radius: 65px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    gap: 15px;
+    padding: 0 30px;
 }
 
+.currentExp,
 .pastExp {
 
     width: 388px;
-    height: 167px;
-
-
     font-family: Lato;
     font-style: normal;
     font-weight: normal;
@@ -128,28 +115,10 @@ body {
     letter-spacing: 0.2px;
 }
 
-.currentExp {
-
-    width: 343px;
-    height: 205px;
-
-
-    font-family: Lato;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 43px;
-
-    letter-spacing: 0.2px;
-
-}
 
 .Header3 {
 
     width: 156px;
-    height: 41px;
-
-
     font-family: Lato;
     font-style: normal;
     font-weight: 900;
@@ -162,16 +131,12 @@ body {
 .Header4 {
 
     width: 351px;
-    height: 82px;
-
-    
     font-family: Lato;
     font-style: normal;
     font-weight: 900;
     font-size: 36px;
     line-height: 63px;
 
-    
     letter-spacing: 0.2px;
 }
 
@@ -179,7 +144,6 @@ body {
 
     width: 388px;
     height: 86.78px;
- 
     
     background: #E5E5E5;
     box-shadow: -5.59885px -5.59885px 16px #FFFFFF, 5.59885px 5.59885px 16.7965px rgba(174, 174, 192, 0.4);
@@ -194,7 +158,15 @@ body {
     letter-spacing: 0.111977px;
     color:#25282B;
 
+    flex: 2 1 auto;
 
+}
+
+.Youtube,
+.Medium,
+.Linkedin,
+.Github {
+    flex: 0.4;
 }
 
 .Youtube {
@@ -213,7 +185,6 @@ body {
     height: 86.78px;
     width: 86.78px;
 
-    
     background: #E5E5E5;
     box-shadow: -3.70833px -3.70833px 11.125px #FFFFFF, 5.5625px 5.5625px 11.125px rgba(174, 174, 192, 0.4);
     border-radius: 18.5417px;
@@ -224,7 +195,6 @@ body {
 
     height: 86.78px;
     width: 86.78px;
-
     
     background: #E5E5E5;
     box-shadow: -3.70833px -3.70833px 11.125px #FFFFFF, 5.5625px 5.5625px 11.125px rgba(174, 174, 192, 0.4);
@@ -236,7 +206,6 @@ body {
 
     height: 86.78px;
     width: 86.78px;
-
     
     background: #E5E5E5;
     box-shadow: -3.70833px -3.70833px 11.125px #FFFFFF, 5.5625px 5.5625px 11.125px rgba(174, 174, 192, 0.4);
@@ -251,13 +220,11 @@ body {
     
 }
 
-
 .Circle {
 
     width: 136px;
     height: 136px;
 
-    
     background: #F6E8B4;
     box-shadow: -10px -10px 30px #FFFFFF, 10px 10px 30px rgba(145, 145, 145, 0.4);
     border-radius: 75px;
@@ -267,6 +234,7 @@ body {
     animation-duration: 6s; 
     animation-iteration-count: infinite; 
     animation-timing-function: ease-in-out; 
+
     
 }
 
@@ -275,7 +243,6 @@ body {
     50%  { transform: translate(0, 30px); } 
     100%   { transform: translate(0, -0px); }     
 } 
-
 
 .NewsletterButton {
 
@@ -292,17 +259,92 @@ body {
     font-style: normal;
     font-weight: 900;
     font-size: 17.8339px;
-    line-height: 21px;
     color: #25282B;
-    
 
-    letter-spacing: 0.090772px;
 }
 /* change pixel values to percentages? */
 
-
-
-.grid-container {
+.container {
     display: grid;
-    grid-template-columns: auto auto auto;
+    /* height: 100vh; this was fucking up shit grrrr */ 
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 1fr 0.8fr 0.6fr;
+    /* grid-gap: 10px; */
+
+    grid-template-areas:
+    " block1 block1 pee pee "
+    " block3 block3 block2 block2 "
+    " block3 block3 block5 block5 "
+    " block3 block3 block6 block6 "
+    " block4 block4 block4 block4 "
+    " block7 block7 block8 block8 "
+    ;
+}
+    
+.block1{
+    display: grid;
+    /* background: #bada55; */
+    grid-area: block1;
+
+}
+
+.block2{
+    /* background: #bada55; */
+    grid-area: block2;
+}
+
+.block3{
+    /* background: #bada55; */
+    grid-area: block3;
+
+    display: grid;
+    justify-content: right;
+    padding-right: 5vh;
+}
+
+.block4{
+    /* background: #bada55; */
+    grid-area: block4;
+
+    display: flex;
+    justify-content: center;
+}
+
+.block5{
+    /* background: #bada55; */
+    grid-area: block5;
+}
+
+.block6{
+    /* background: #bada55; */
+    grid-area: block6;
+    
+}
+
+.block7{
+    display: grid;
+    /* background: #bada55; */
+    grid-area: block7;
+   
+    justify-content: right;
+    padding-top: 2vh;
+}
+
+.block8{
+    display: grid;
+    /* background: #bada55; */
+    grid-area: block8;
+
+    justify-content: left;
+    padding-left: 10vh;
+    padding-top: 2vh;
+  
+}
+
+.pee {
+    display: grid;
+    /* background: #bada55; */
+
+    justify-content: right;
+    padding-top: 3vh;
 }
