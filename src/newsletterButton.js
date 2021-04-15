@@ -11,7 +11,7 @@ function NewsletterButton () {
         <div className = "block1">
             <img className = "self" src={self} alt="Logo" />
         </div>
-            <div className = "pee">
+            <div className = "block9">
                 <button onClick = {() => redirectMe('https://tks.life/profile/evan.lin#about')} className = "NewsletterButton">
                     Follow my Newsletter!
                 </button>

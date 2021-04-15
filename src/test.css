@@ -27,6 +27,8 @@ body {
     animation-duration: 2.5s;        /* Change to speed up or slow down */
     animation-iteration-count: infinite;  /* Never stop waving :) */
     transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+
+    padding-left: 2vh;
 }
 
 @keyframes wave-animation {
@@ -41,6 +43,10 @@ body {
 }
 
 .self {
+    width: 5%;
+
+    padding-top: 2vh;
+    padding-left: 2vh;
 }
 
 .me {
@@ -83,9 +89,6 @@ body {
 
 }
 
-.Icon {
-
-}
 
 .NavBar {
     width: 1201px;
@@ -159,7 +162,6 @@ body {
     color:#25282B;
 
     flex: 2 1 auto;
-
 }
 
 .Youtube,
@@ -235,6 +237,7 @@ body {
     animation-iteration-count: infinite; 
     animation-timing-function: ease-in-out; 
 
+
     
 }
 
@@ -268,11 +271,12 @@ body {
     display: grid;
     /* height: 100vh; this was fucking up shit grrrr */ 
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 0.2fr 1fr 0.8fr 0.6fr;
+    grid-template-rows: 0.3fr 0.5fr 0.4fr 0.25fr 0.3fr;
+    /* 0.2fr 0.7fr 0.8fr 0.6fr 0.5fr; */
     /* grid-gap: 10px; */
 
     grid-template-areas:
-    " block1 block1 pee pee "
+    " block1 block1 block1 block9 "
     " block3 block3 block2 block2 "
     " block3 block3 block5 block5 "
     " block3 block3 block6 block6 "
@@ -283,18 +287,20 @@ body {
     
 .block1{
     display: grid;
-    /* background: #bada55; */
+    background: #bada55;
     grid-area: block1;
 
 }
 
 .block2{
-    /* background: #bada55; */
+    background: #bada55;
     grid-area: block2;
+
+    padding-top: 4vh;
 }
 
 .block3{
-    /* background: #bada55; */
+    background: #bada55;
     grid-area: block3;
 
     display: grid;
@@ -304,7 +310,7 @@ body {
 
 
 .block4{
-    /* background: #bada55; */
+    background: #bada55;
     grid-area: block4;
 
     display: flex;
@@ -312,19 +318,19 @@ body {
 }
 
 .block5{
-    /* background: #bada55; */
+    background: #bada55;
     grid-area: block5;
 }
 
 .block6{
-    /* background: #bada55; */
+    background: #bada55;
     grid-area: block6;
     
 }
 
 .block7{
     display: grid;
-    /* background: #bada55; */
+    background: #bada55;
     grid-area: block7;
    
     justify-content: right;
@@ -333,7 +339,7 @@ body {
 
 .block8{
     display: grid;
-    /* background: #bada55; */
+    background: #bada55;
     grid-area: block8;
 
     justify-content: left;
@@ -342,10 +348,13 @@ body {
   
 }
 
-.pee {
+.block9{
     display: grid;
-    /* background: #bada55; */
+    background: #bada55;  
 
-    justify-content: right;
-    padding-top: 3vh;
+    justify-content: center;
+    padding-top: 5vh;
+
+    width: 100%;
+
 }

@@ -11,9 +11,11 @@ function Alltext() {
     <div className = "container">
         <div className = "block2">
             <div className = "Header">
-            <text>Hey! I’m Evan. Welcome <br/>to my website! </text>
+            <text>Hey! I’m Evan. Welcome <br/>to my website!
+                 <img className = "Wave" src={wave} alt="Logo" /> 
+            </text>
             </div>
-            <div><img className = "Wave" src={wave} alt="Logo" /></div>
+            
         </div>
 
 
