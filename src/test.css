@@ -271,7 +271,7 @@ body {
     display: grid;
     /* height: 100vh; this was fucking up shit grrrr */ 
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 0.3fr 0.5fr 0.4fr 0.25fr 0.3fr;
+    grid-template-rows: 0.3fr 0.5fr 0.4fr 0.25fr 0.fr;
     /* 0.2fr 0.7fr 0.8fr 0.6fr 0.5fr; */
     /* grid-gap: 10px; */
 
@@ -287,20 +287,20 @@ body {
     
 .block1{
     display: grid;
-    background: #bada55;
+    /* background: #bada55; */
     grid-area: block1;
 
 }
 
 .block2{
-    background: #bada55;
+    /* background: #bada55; */
     grid-area: block2;
 
     padding-top: 4vh;
 }
 
 .block3{
-    background: #bada55;
+    /* background: #bada55; */
     grid-area: block3;
 
     display: grid;
@@ -310,7 +310,7 @@ body {
 
 
 .block4{
-    background: #bada55;
+    /* background: #bada55; */
     grid-area: block4;
 
     display: flex;
@@ -318,19 +318,19 @@ body {
 }
 
 .block5{
-    background: #bada55;
+    /* background: #bada55; */
     grid-area: block5;
 }
 
 .block6{
-    background: #bada55;
+    /* background: #bada55; */
     grid-area: block6;
     
 }
 
 .block7{
     display: grid;
-    background: #bada55;
+    /* background: #bada55; */
     grid-area: block7;
    
     justify-content: right;
@@ -339,7 +339,7 @@ body {
 
 .block8{
     display: grid;
-    background: #bada55;
+    /* background: #bada55; */
     grid-area: block8;
 
     justify-content: left;
@@ -350,7 +350,7 @@ body {
 
 .block9{
     display: grid;
-    background: #bada55;  
+    /* background: #bada55;   */
 
     justify-content: center;
     padding-top: 5vh;
